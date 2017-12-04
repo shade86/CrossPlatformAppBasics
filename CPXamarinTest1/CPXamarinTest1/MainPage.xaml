@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CPXamarinTest1"
+             x:Class="CPXamarinTest1.MainPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Bisque">
+            <Entry x:Name="TextBox" BackgroundColor="AntiqueWhite">
+            </Entry>
+            <Button Text="Üdvözöld!" Clicked="Button_Clicked"></Button>
+            <Label x:Name="Label1">
+            </Label>
+            <Button Text="Second Page" Clicked="Button_Clicked_1"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
