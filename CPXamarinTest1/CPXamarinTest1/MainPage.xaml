@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CPXamarinTest1"
-             x:Class="CPXamarinTest1.MainPage">
+             x:Class="CPXamarinTest1.MainPage"
+             Title="First Page">
     <ContentPage.Content>
         <StackLayout BackgroundColor="Bisque">
             <Entry x:Name="TextBox" BackgroundColor="AntiqueWhite">

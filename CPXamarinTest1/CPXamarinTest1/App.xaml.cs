@@ -13,7 +13,14 @@ namespace CPXamarinTest1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new CPXamarinTest1.MainPage());
+            MainPage = new CarouselPage
+            {
+                Children =
+                {
+                    new MainPage(),
+                    new Page1("Hello")
+                }
+            };
         }
 
         protected override void OnStart()
