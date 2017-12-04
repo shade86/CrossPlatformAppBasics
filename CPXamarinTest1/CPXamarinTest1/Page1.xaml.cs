@@ -12,9 +12,10 @@ namespace CPXamarinTest1
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page1 : ContentPage
     {
-        public Page1()
+        public Page1(string parameter)
         {
             InitializeComponent();
+            MainLabel.Text = parameter;
         }
     }
 }

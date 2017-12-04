@@ -22,7 +22,7 @@ namespace CPXamarinTest1
 
         private async void Button_Clicked_1(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page1());
+            await Navigation.PushAsync(new Page1(TextBox.Text));
         }
     }
 }
